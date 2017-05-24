@@ -111,12 +111,12 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            decimal newM = System.Convert.ToDecimal(mathGrade.Text);
-            decimal newS = System.Convert.ToDecimal(scienceGrade.Text);
-            decimal newEn = System.Convert.ToDecimal(englishGrade.Text);
-            decimal newF = System.Convert.ToDecimal(frenchGrade.Text);
-            decimal newH = System.Convert.ToDecimal(historyGrade.Text);
-            decimal newP = System.Convert.ToDecimal(psychologyGrade.Text);
+            decimal newM = gradeReturn(mathGrade.Text);
+            decimal newS = gradeReturn(scienceGrade.Text);
+            decimal newEn = gradeReturn(englishGrade.Text);
+            decimal newF = gradeReturn(frenchGrade.Text);
+            decimal newH = gradeReturn(historyGrade.Text);
+            decimal newP = gradeReturn(psychologyGrade.Text);
             decimal newGpa = (newM + newS + newEn + newF + newH + newP) / 6;
 
 
@@ -187,14 +187,19 @@ namespace WindowsFormsApp2
 
         public decimal gradeReturn(string x)
         {
-            decimal y = .1M;
-
-            if (x == " ")
-            {
-                return y;
+            if (x == "F"){
+                return .0M;
+            } else if(x == "D"){
+                return 1.0M;
+            } else if (x == "C") {
+                return 2.33M;
+            } else if (x == "B"){
+                return 3.33M;
+            } else if (x == "A"){
+                return 4.0M;
+            }else{
+                return 0.0M;
             }
-
-            return y;
         }
 
     }
