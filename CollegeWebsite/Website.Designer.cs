@@ -151,7 +151,7 @@
             this.aboutPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.aboutPage.Location = new System.Drawing.Point(261, 148);
             this.aboutPage.Name = "aboutPage";
-            this.aboutPage.Size = new System.Drawing.Size(189, 417);
+            this.aboutPage.Size = new System.Drawing.Size(189, 3000);
             this.aboutPage.TabIndex = 3;
             this.aboutPage.Visible = false;
             // 

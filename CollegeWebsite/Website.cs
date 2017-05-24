@@ -15,11 +15,17 @@ namespace CollegeWebsite
     {
         int width;
 
+
         public Website()
         {
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
+
+            ScrollBar vScrollBar1 = new VScrollBar();
+            vScrollBar1.Dock = DockStyle.Right;
+            //vScrollBar1.Scroll += (sender, e) => { Website.VerticalScroll.Value = vScrollBar1.Value; };
+            //Website.Controls.Add(vScrollBar1);
 
             banner.Left = 0;
             navigation.Left = 0;

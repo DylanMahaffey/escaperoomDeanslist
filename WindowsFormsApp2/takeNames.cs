@@ -207,6 +207,9 @@ namespace WindowsFormsApp2
         {
             Website newGame = new Website();
 
+            newGame.AutoScroll = true;
+            newGame.HorizontalScroll.Enabled = false;
+            newGame.HorizontalScroll.Visible = false;
             newGame.Show();
         }
     }

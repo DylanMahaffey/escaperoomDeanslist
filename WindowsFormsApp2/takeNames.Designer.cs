@@ -331,7 +331,7 @@
             // 
             this.startWebsite.Location = new System.Drawing.Point(44, 357);
             this.startWebsite.Name = "startWebsite";
-            this.startWebsite.Size = new System.Drawing.Size(249, 23);
+            this.startWebsite.Size = new System.Drawing.Size(249, 43);
             this.startWebsite.TabIndex = 10;
             this.startWebsite.Text = "open website";
             this.startWebsite.UseVisualStyleBackColor = true;
