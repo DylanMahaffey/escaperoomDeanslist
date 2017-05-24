@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClassLibrary1;
+using CollegeWebsite;  
 
 namespace WindowsFormsApp2
 {
@@ -202,5 +203,11 @@ namespace WindowsFormsApp2
             }
         }
 
+        private void startWebsite_Click(object sender, EventArgs e)
+        {
+            Website newGame = new Website();
+
+            newGame.Show();
+        }
     }
 }

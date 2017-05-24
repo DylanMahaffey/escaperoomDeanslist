@@ -10,3 +10,6 @@ c:\users\dylan\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFor
 c:\users\dylan\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\ClassLibrary1.pdb
 c:\users\dylan\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 c:\users\dylan\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Dylan\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\CollegeWebsite.exe
+C:\Users\Dylan\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\CollegeWebsite.pdb
+C:\Users\Dylan\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\CollegeWebsite.exe.config

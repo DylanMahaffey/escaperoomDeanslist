@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6FE20BDD-5563-49F2-B524-18D33A39257E}</ProjectGuid>
+    <ProjectGuid>{1927383F-A9F3-4DD2-8509-2B256158D308}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp2</RootNamespace>
-    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <RootNamespace>CollegeWebsite</RootNamespace>
+    <AssemblyName>CollegeWebsite</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,23 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="displayNames.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="displayNames.Designer.cs">
-      <DependentUpon>displayNames.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="takeNames.cs">
+    <Compile Include="Website.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="takeNames.Designer.cs">
-      <DependentUpon>takeNames.cs</DependentUpon>
+    <Compile Include="Website.Designer.cs">
+      <DependentUpon>Website.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="displayNames.resx">
-      <DependentUpon>displayNames.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,8 +62,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="takeNames.resx">
-      <DependentUpon>takeNames.cs</DependentUpon>
+    <EmbeddedResource Include="Website.resx">
+      <DependentUpon>Website.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,16 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{efe6291e-4611-48d1-aabd-5f22cec66088}</Project>
-      <Name>ClassLibrary1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CollegeWebsite\CollegeWebsite.csproj">
-      <Project>{1927383f-a9f3-4dd2-8509-2b256158d308}</Project>
-      <Name>CollegeWebsite</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
